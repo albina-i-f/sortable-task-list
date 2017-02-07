@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+
+	<title>Сортируемый список дел</title>
+	
+	<link rel = "stylesheet" href = "css/main.css" />
+</head>
+<body>
+	<h1>Список дел</h1>
+	<ul id="sortable" class="task-list">
+		<li id="task_1">
+			<span>Дело №1</span>
+		</li>
+		<li id="task_2">
+			<span>Дело №2</span>
+		</li>
+		<li id="task_3">
+			<span>Дело №3</span>
+		</li>
+		<li id="task_4">
+			<span>Дело №4</span>
+		</li>
+		<li id="task_5">
+			<span>Дело №5</span>
+		</li>
+	</ul>
+  <form id="add-form" name="add-form" action="#" method="post">
+		<label>
+			<textarea id="task-text" name="task-text"></textarea>
+		</label>
+		<button type="submit">Сохранить</button>
+	</form>
+
+
+	<script src="libs/jquery/jquery-1.12.4.min.js"></script>
+	<script src="libs/jquery-ui/jquery-ui-1.12.1.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>

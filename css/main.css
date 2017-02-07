@@ -1,0 +1,12 @@
+.task-list {
+	border: 1px solid #000;
+	list-style: none;
+	padding: 20px;
+}
+
+.task-list > li {
+	background-color: yellow;
+	border: 1px solid #000;
+	margin: 5px;
+	padding: 10px;
+}
